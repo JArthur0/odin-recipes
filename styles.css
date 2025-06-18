@@ -1,45 +1,44 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
- * {
+/**{
     border: 1px solid red;
-=======
-* {
-    border: 1px solid red;
-=======
+}
+
 /*---------------INDEX--------------*/
 #mainpage{
     background-color: #1e1f1f;
-    margin: 0 800px;
+    margin: 0px 50px;
+    padding: 0px 50px;
 }
 
 .title{
     color: whitesmoke;
     font-size: 50px;
     text-align: center;
->>>>>>> 2ae7edfb6c20b6b0cce078be3862c919c70d7de9
 }
 
 .container{
-    margin: 0 auto;
+    margin: 0px auto 0px 50px;
     vertical-align: top;
     display: inline-block;
     width: 100px;
     height: 100px;
-    overflow: visible;
 }
+
 .image{
     width: 100px;
     height: 100px;
 }
 .desc{
-<<<<<<< HEAD
     display: inline;
->>>>>>> 8d5a36c9837295d0b9641f76e89d09a0fc78dedd
-}
-=======
     text-shadow: 0px 0px 5px black;
     color: white;
-    display: inline
 }
 /*---------------PAGES--------------*/
->>>>>>> 2ae7edfb6c20b6b0cce078be3862c919c70d7de9
+.homeButton{
+    padding: 6px 6px;
+    border: 1px outset green;
+    border-radius: 3px;
+    color: black;
+    background-color: gray;
+    text-decoration: none;
+    text-align: center;
+}
