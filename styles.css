@@ -1,4 +1,4 @@
-/**{
+/*{
     border: 1px solid red;
 }
 
@@ -7,38 +7,59 @@
     background-color: #1e1f1f;
     margin: 0px 50px;
     padding: 0px 50px;
+    font-family: "Nexa",Arial, sans-serif;
 }
 
-.title{
+.mainTitle{
     color: whitesmoke;
     font-size: 50px;
     text-align: center;
 }
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    gap: 70px;
+}
 
 .container{
-    margin: 0px auto 0px 50px;
-    vertical-align: top;
-    display: inline-block;
+    display: block;
     width: 100px;
     height: 100px;
 }
 
 .image{
     width: 100px;
-    height: 100px;
+    height: 100%;
 }
 .desc{
     display: inline;
-    text-shadow: 0px 0px 5px black;
+    text-shadow: 2px 2px 0px black;
     color: white;
 }
 /*---------------PAGES--------------*/
+.recipePage{
+    background-color: #1e1f1f;
+    margin: 30px 50px;
+    color: white;
+    text-shadow: 2px 2px 0px rgb(65, 64, 64);
+    font-family: Arial, Helvetica, sans-serif;
+}
 .homeButton{
     padding: 6px 6px;
-    border: 1px outset green;
+    border: 1px outset black;
     border-radius: 3px;
     color: black;
     background-color: gray;
     text-decoration: none;
     text-align: center;
+    text-shadow: none;
+}
+.title{
+    color: whitesmoke;
+    font-size: 40px;
+}
+.recipeImage{
+    width:400px;
+    height:300px;
 }
